@@ -2,139 +2,326 @@
 <html lang="pt-br">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Vivencie a História</title>
-    <link rel="stylesheet" href="scr/styles/styles.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>História Viva — Experiências Imersivas</title>
+  <link rel="stylesheet" href="/scr/styles/styles.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
 
 </head>
 
 <body>
 
-    <!-- Navbar -->
-    <nav class="barra-navegacao">
-        <div class="logo">História Viva</div>
-        <ul class="links-navegacao">
-            <li><a href="#inicio">Início</a></li>
-            <li><a href="#sobre">Sobre</a></li>
-            <li><a href="#contato">Contato</a></li>
-        </ul>
-    </nav>
+  <!-- NAVBAR -->
+  <nav class="barra-navegacao">
+    <div class="logo">História Viva</div>
+    <button class="menu-toggle">
+      <i class="fas fa-bars"></i>
+    </button>
+    <ul class="links-navegacao">
+      <li><a href="#inicio">Início</a></li>
+      <li><a href="#experiencias">Experiências</a></li>
+      <li><a href="#tecnologia">Tecnologia</a></li>
+      <li><a href="#sobre">Sobre</a></li>
+      <li><a href="#contato">Contato</a></li>
+    </ul>
+  </nav>
 
-    <!-- Seção Início -->
-    <section class="inicio" id="inicio">
-        <video autoplay muted loop id="video-fundo">
-            <source src="scr/midia/137085-765727903_small.mp4" type="video/mp4">
-        </video>
-
-        <div class="conteudo-principal">
-            <h1>Bem vindos</h1>
-            <p>Não leia a história, vivencie-a.</p>
-            <a href="#sobre">Explora</a>
+  <!-- SLIDER INICIAL -->
+  <section class="slider" id="inicio">
+    <div class="slides">
+      <div class="slide ativo" style="background-image: url(scr/midia/fds2.jpg)">
+        <div class="conteudo-slide">
+          <h1>Reviva o Passado</h1>
+          <p>Viaje no tempo e sinta a história como se estivesse lá.</p>
         </div>
-    </section>
+      </div>
 
-    <!-- Seção Sobre -->
-    <section class="secao-sobre" id="sobre">
-        <div class="container-sobre">
-            <div class="imagem-sobre">
-                <img src="scr/midia/Image_fx-removebg-preview.png" alt="Ruínas Históricas">
-            </div>
-            <div class="texto-sobre">
-                <h2>Sobre o Projeto</h2>
-                <p>
-                    Nossa missão é transformar a forma como aprendemos história. Aqui, você não apenas lê sobre os
-                    eventos — você os vivencia.
-                    <br>
-                    <br>
-                    Cada era ganha vida diante dos seus olhos: o eco das batalhas antigas, o brilho das civilizações
-                    perdidas e a sabedoria deixada pelos grandes pensadores do passado.
-                    <br>
-                    <br>
-                    Queremos que você sinta o peso das descobertas, o som das multidões em revoluções e a esperança dos
-                    povos que moldaram o mundo.
-                    <br>
-                    <br>
-                    Entre ruínas, civilizações e heróis, descubra a essência de cada época — e perceba como o passado
-                    continua a pulsar no presente.
-                    <br>
-                    <br>
-                    Aqui, a história deixa de ser apenas lembrança e se torna experiência. Uma jornada que conecta
-                    emoção, conhecimento e tempo.
-                </p>
-            </div>
+      <div class="slide" style="background-image: url('https://images.unsplash.com/photo-1598974357801-cbca100e65d3?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1974&q=80')">
+        <div class="conteudo-slide">
+          <h1>Explore Civilizações Perdidas</h1>
+          <p>Descubra as ruínas, sons e cores de mundos esquecidos.</p>
         </div>
-    </section>
+      </div>
 
-    <section class="secao-tecnologias" id="tecnologias">
-        <h2>Tecnologias Utilizadas</h2>
-        <p>Combinamos história e inovação através das tecnologias que tornam essa experiência imersiva possível.</p>
-
-        <div class="container-tecnologias">
-            <div class="tecnologia">
-                <img src="scr/midia/image-removebg-preview.png" alt="Óculos Realidade Aumentada"
-                    title="Óculos Realidade Aumentada">
-                <h3>Óculos RV</h3>
-
-            </div>
-            <div class="tecnologia">
-                <img src="scr/midia/hj.png" alt="Guerra Holografica" title="Luvas Hapticas">
-                <h3>Luvas Hápticas </h3>
-            </div>
-    </section>
-
-    <!-- Seção Contato -->
-    <section class="secao-contato" id="contato">
-        <div class="container-contato">
-            <h2>Fale Conosco</h2>
-            <p>Quer saber mais? Entre em contato e faça parte dessa jornada pelo tempo.</p>
-            <a href="tel: 55+ 11986294732">Entrar em Contato</a>
+      <div class="slide" style="background-image: url('https://images.unsplash.com/photo-1589652717521-10c0d092dea9?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80')">
+        <div class="conteudo-slide">
+          <h1>História que se Move</h1>
+          <p>Realidade virtual, háptica e emoção — tudo em um só lugar.</p>
         </div>
-    </section>
+      </div>
+    </div>
 
-    <!-- Footer -->
-    <footer class="rodape" id="rodape">
-        <div class="rodape-conteudo">
-            <div class="rodape-coluna rodape-sobre">
-                <div class="logo-rodape">História Viva</div>
-                <p>Transformando o aprendizado em experiência — siga a jornada e vivencie o passado.</p>
-            </div>
-
-            <div class="rodape-coluna rodape-links">
-                <h4>Links Rápidos</h4>
-                <ul>
-                    <li><a href="#inicio">Início</a></li>
-                    <li><a href="#sobre">Sobre</a></li>
-                    <li><a href="#equipamentos">Equipamentos</a></li>
-                    <li><a href="#contato">Contato</a></li>
-                </ul>
-            </div>
-
-            <div class="rodape-coluna rodape-contato">
-                <h4>Contato</h4>
-                <p>Email: <a href="mailto:contato@historiaviva.example">contato@historiaviva.com</a></p>
-                <p>Tel: +55 (11) 98629-4732</p>
-
-                <div class="rodape-social">
-                    <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
-                    <a href="#" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
-                    <a href="#" aria-label="LinkedIn"><i class="fab fa-linkedin"></i></a>
-                </div>
-            </div>
-        </div>
-
-        <div class="rodape-baixo">
-            <p>© <span id="ano-atual"></span> História Viva. Todos os direitos reservados.</p>
-            <p class="rodape-creditos">Desenvolvido por <strong>Sofhia Neres</strong></p>
-        </div>
-    </footer>
-
-    <button class="botao-topo" id="botao-topo" aria-label="Voltar ao topo">
-        <i class="fas fa-arrow-up"></i>
+    <button class="slider-nav slider-prev">
+      <i class="fas fa-chevron-left"></i>
+    </button>
+    <button class="slider-nav slider-next">
+      <i class="fas fa-chevron-right"></i>
     </button>
 
+    <div class="navegacao-slider">
+      <span class="dot ativo"></span>
+      <span class="dot"></span>
+      <span class="dot"></span>
+    </div>
+  </section>
+
+  <!-- SOBRE -->
+  <section class="secao-sobre" id="sobre">
+    <div class="container">
+      <div class="container-sobre">
+        <div class="imagem-sobre">
+          <img src="https://images.unsplash.com/photo-1593508512255-86ab42a8e620?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2058&q=80" alt="Realidade Virtual História">
+        </div>
+        <div class="texto-sobre">
+          <h2>Vivencie a História</h2>
+          <p>
+            Somos uma empresa dedicada a transformar a forma como o mundo aprende e sente a História.
+            <br><br>
+            Nossas experiências unem tecnologia e narrativa para transportar você a épocas marcantes — da
+            Grécia Antiga à Revolução Industrial.
+            <br><br>
+            Aqui, o passado ganha vida: você ouve, toca e participa dos acontecimentos que moldaram o mundo.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- EXPERIÊNCIAS -->
+  <section class="secao-experiencias" id="experiencias">
+    <div class="container">
+      <h2>Experiências Imersivas</h2>
+      <p>Reviva eventos históricos com todos os sentidos. Escolha sua era:</p>
+
+      <div class="cards-experiencias">
+        <div class="card">
+          <img src="scr/midia/fds.jpg" alt="Egito Antigo">
+          <h3>Egito Antigo</h3>
+          <p>Caminhe entre as pirâmides, explore templos e descubra os segredos dos faraós.</p>
+        </div>
+
+        <div class="card">
+          <img src="https://images.unsplash.com/photo-1598974357801-cbca100e65d3?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1974&q=80" alt="Roma Antiga">
+          <h3>Império Romano</h3>
+          <p>Assista a batalhas no Coliseu e viva o poder de uma das maiores civilizações da história.</p>
+        </div>
+
+        <div class="card">
+          <img src="https://images.unsplash.com/photo-1589652717521-10c0d092dea9?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80" alt="Idade Média">
+          <h3>Idade Média</h3>
+          <p>Explore castelos, feiras medievais e o cotidiano de cavaleiros e aldeões.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- TECNOLOGIA -->
+  <section class="secao-tecnologia" id="tecnologia">
+    <div class="container">
+      <h2>Tecnologia e Inovação</h2>
+      <p>Aliamos o passado à tecnologia do futuro para criar uma experiência inesquecível.</p>
+
+      <div class="container-tecnologias">
+        <div class="tecnologia">
+          <img src="https://images.unsplash.com/photo-1593508512255-86ab42a8e620?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2058&q=80" alt="Óculos RV">
+          <h3>Realidade Virtual</h3>
+          <p>Óculos de RV projetam cenários históricos em 360°, com detalhes autênticos e sons realistas.</p>
+        </div>
+
+        <div class="tecnologia">
+          <img src="/scr/midia/fds3.jpg">
+          <h3>Luvas Hápticas</h3>
+          <p>Sinta texturas, temperaturas e vibrações enquanto interage com o ambiente histórico.</p>
+        </div>
+
+        <div class="tecnologia">
+          <img src="https://images.unsplash.com/photo-1635070041078-e363dbe005cb?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80" alt="Hologramas">
+          <h3>Hologramas 3D</h3>
+          <p>Recriações vivas de figuras históricas — converse com filósofos, reis e inventores.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- DEPOIMENTOS -->
+  <section class="secao-depoimentos">
+    <div class="container">
+      <h2>O Que Dizem Nossos Visitantes</h2>
+      <div class="depoimentos">
+        <div class="depoimento">
+          <p>"Foi como caminhar realmente na Roma Antiga. Uma das experiências mais incríveis da minha vida!"</p>
+          <span>— Ana Costa</span>
+        </div>
+        <div class="depoimento">
+          <p>"Aprender história nunca foi tão emocionante. Senti o calor das chamas da Revolução Francesa."</p>
+          <span>— Lucas Pereira</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTATO -->
+  <section class="secao-contato" id="contato">
+    <div class="container">
+      <h2>Entre em Contato</h2>
+      <p>Deseja trazer nossa experiência para sua escola, evento ou empresa?</p>
+      
+      <form class="formulario-contato">
+        <div class="grupo-form">
+          <label for="nome">Nome</label>
+          <input type="text" id="nome" required>
+        </div>
+        <div class="grupo-form">
+          <label for="email">E-mail</label>
+          <input type="email" id="email" required>
+        </div>
+        <div class="grupo-form">
+          <label for="mensagem">Mensagem</label>
+          <textarea id="mensagem" required></textarea>
+        </div>
+        <button type="submit" class="botao-contato">Enviar Mensagem</button>
+      </form>
+    </div>
+  </section>
+
+  <!-- RODAPÉ -->
+  <footer class="rodape">
+    <div class="container">
+      <div class="rodape-conteudo">
+        <div>
+          <h3>História Viva</h3>
+          <p>Transformando o aprendizado em uma jornada imersiva no tempo.</p>
+        </div>
+        <div>
+          <h4>Links</h4>
+          <ul>
+            <li><a href="#inicio">Início</a></li>
+            <li><a href="#experiencias">Experiências</a></li>
+            <li><a href="#tecnologia">Tecnologia</a></li>
+            <li><a href="#contato">Contato</a></li>
+          </ul>
+        </div>
+        <div>
+          <h4>Siga-nos</h4>
+          <div class="rodape-social">
+            <a href="#"><i class="fab fa-instagram"></i></a>
+            <a href="#"><i class="fab fa-youtube"></i></a>
+            <a href="#"><i class="fab fa-linkedin"></i></a>
+          </div>
+        </div>
+      </div>
+      <p class="rodape-copy">© <span id="ano-atual"></span> História Viva — Todos os direitos reservados.</p>
+    </div>
+  </footer>
+
+  <!-- BOTÃO VOLTAR AO TOPO -->
+  <a href="#inicio" class="voltar-topo">
+    <i class="fas fa-chevron-up"></i>
+  </a>
+
+  <script>
+    // Atualiza o ano automaticamente
+    document.getElementById('ano-atual').textContent = new Date().getFullYear();
+
+    // Slider automático
+    let slides = document.querySelectorAll('.slide');
+    let dots = document.querySelectorAll('.dot');
+    let index = 0;
+    let slideInterval;
+
+    function mudarSlide() {
+      slides.forEach(s => s.classList.remove('ativo'));
+      dots.forEach(d => d.classList.remove('ativo'));
+      index = (index + 1) % slides.length;
+      slides[index].classList.add('ativo');
+      dots[index].classList.add('ativo');
+    }
+
+    function iniciarSlider() {
+      slideInterval = setInterval(mudarSlide, 5000);
+    }
+
+    function pararSlider() {
+      clearInterval(slideInterval);
+    }
+
+    // Navegação manual do slider
+    document.querySelector('.slider-next').addEventListener('click', () => {
+      pararSlider();
+      mudarSlide();
+      iniciarSlider();
+    });
+
+    document.querySelector('.slider-prev').addEventListener('click', () => {
+      pararSlider();
+      slides.forEach(s => s.classList.remove('ativo'));
+      dots.forEach(d => d.classList.remove('ativo'));
+      index = (index - 1 + slides.length) % slides.length;
+      slides[index].classList.add('ativo');
+      dots[index].classList.add('ativo');
+      iniciarSlider();
+    });
+
+    // Navegação por pontos
+    dots.forEach((dot, i) => {
+      dot.addEventListener('click', () => {
+        pararSlider();
+        slides.forEach(s => s.classList.remove('ativo'));
+        dots.forEach(d => d.classList.remove('ativo'));
+        index = i;
+        slides[index].classList.add('ativo');
+        dots[index].classList.add('ativo');
+        iniciarSlider();
+      });
+    });
+
+    // Menu responsivo
+    const menuToggle = document.querySelector('.menu-toggle');
+    const linksNavegacao = document.querySelector('.links-navegacao');
+
+    menuToggle.addEventListener('click', () => {
+      linksNavegacao.classList.toggle('ativo');
+    });
+
+    // Fechar menu ao clicar em um link
+    document.querySelectorAll('.links-navegacao a').forEach(link => {
+      link.addEventListener('click', () => {
+        linksNavegacao.classList.remove('ativo');
+      });
+    });
+
+    // Navbar scroll effect
+    const navbar = document.querySelector('.barra-navegacao');
+    window.addEventListener('scroll', () => {
+      if (window.scrollY > 100) {
+        navbar.classList.add('scrolled');
+      } else {
+        navbar.classList.remove('scrolled');
+      }
+    });
+
+    // Botão voltar ao topo
+    const voltarTopo = document.querySelector('.voltar-topo');
+    window.addEventListener('scroll', () => {
+      if (window.scrollY > 300) {
+        voltarTopo.classList.add('visivel');
+      } else {
+        voltarTopo.classList.remove('visivel');
+      }
+    });
+
+    // Formulário de contato
+    const formulario = document.querySelector('.formulario-contato');
+    formulario.addEventListener('submit', (e) => {
+      e.preventDefault();
+      alert('Obrigado pela sua mensagem! Entraremos em contato em breve.');
+      formulario.reset();
+    });
+
+    // Iniciar slider
+    iniciarSlider();
+  </script>
 
 </body>
-
 </html>
